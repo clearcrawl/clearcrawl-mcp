@@ -9,7 +9,7 @@
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://agentreader.onrender.com/mcp",
+      "url": "https://agentreader.onrender.com/v1/mcp",
       "headers": [
         { "name": "Authorization", "description": "Optional: 'Bearer <Clearcrawl API key>' for paid credits. Omit for the free tier (100 calls/day).", "isRequired": false, "isSecret": true }
       ]
