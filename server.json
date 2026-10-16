@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.clearcrawl/agentreader",
+  "title": "AgentReader",
+  "description": "Turn any URL into clean markdown/JSON and convert PDF, XLSX, CSV, DOCX to text and tables. Free tier.",
+  "repository": { "url": "https://github.com/clearcrawl/agentreader-mcp", "source": "github" },
+  "websiteUrl": "https://agentreader.onrender.com/llms.txt",
+  "version": "0.2.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://agentreader.onrender.com/mcp",
+      "headers": [
+        { "name": "Authorization", "description": "Optional: 'Bearer <AgentReader API key>' for paid credits. Omit for the free tier (100 calls/day).", "isRequired": false, "isSecret": true }
+      ]
+    }
+  ]
+}
