@@ -1,14 +1,14 @@
 {
-  "name": "agentreader-mcp",
-  "version": "0.2.0",
-  "description": "MCP server for AgentReader: turn any URL into clean markdown/JSON and convert PDF, XLSX, CSV, DOCX into text and tables.",
+  "name": "clearcrawl-mcp",
+  "version": "0.3.0",
+  "description": "MCP server for Clearcrawl: turn any URL into clean markdown/JSON and convert PDF, XLSX, CSV, DOCX into text and tables.",
   "type": "module",
-  "bin": { "agentreader-mcp": "index.js" },
+  "bin": { "clearcrawl-mcp": "index.js" },
   "main": "index.js",
-  "mcpName": "io.github.clearcrawl/agentreader",
+  "mcpName": "io.github.clearcrawl/clearcrawl",
   "license": "MIT",
   "engines": { "node": ">=18" },
-  "repository": { "type": "git", "url": "https://github.com/clearcrawl/agentreader-mcp" },
+  "repository": { "type": "git", "url": "https://github.com/clearcrawl/clearcrawl-mcp" },
   "keywords": ["mcp", "model-context-protocol", "web-scraping", "markdown", "pdf", "document-parsing", "ai-agents"],
   "dependencies": { "@modelcontextprotocol/sdk": "^1.32.1", "zod": "^3.25.0" }
 }

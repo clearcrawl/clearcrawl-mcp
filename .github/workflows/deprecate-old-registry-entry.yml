@@ -1,0 +1,13 @@
+name: Deprecate old AgentReader registry entry
+on: workflow_dispatch
+permissions:
+  id-token: write
+  contents: read
+jobs:
+  deprecate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install mcp-publisher
+        run: curl -L "https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher_$(uname -s | tr '[:upper:]' '[:lower:]')_$(uname -m | sed 's/x86_64/amd64/;s/aarch64/arm64/').tar.gz" | tar xz mcp-publisher
+      - run: ./mcp-publisher login github-oidc
+      - run: ./mcp-publisher status --status deprecated --all-versions --yes --message "Renamed to io.github.clearcrawl/clearcrawl" io.github.clearcrawl/agentreader
