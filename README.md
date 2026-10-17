@@ -8,12 +8,12 @@ An MCP server for **Clearcrawl**, a pay-per-call API built for AI agents:
 **Free tier:** 100 calls a day with no signup. **Paid:** 1 credit = $0.001; `read_url` costs 2 credits and `convert_file` costs 3 per page. Credit packs start at $5 for 5,000 credits.
 
 ## Option 1: remote (no install)
-Streamable HTTP endpoint: `https://agentreader.onrender.com/v1/mcp`
+Streamable HTTP endpoint: `https://agentreader.onrender.com/clearcrawl/mcp`
 
 ```json
-{ "mcpServers": { "clearcrawl": { "url": "https://agentreader.onrender.com/v1/mcp" } } }
+{ "mcpServers": { "clearcrawl": { "url": "https://agentreader.onrender.com/clearcrawl/mcp" } } }
 ```
-Claude Code: `claude mcp add --transport http clearcrawl https://agentreader.onrender.com/v1/mcp`
+Claude Code: `claude mcp add --transport http clearcrawl https://agentreader.onrender.com/clearcrawl/mcp`
 For paid credits, add the header `Authorization: Bearer <your key>`.
 
 ## Option 2: local stdio
