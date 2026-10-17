@@ -5,11 +5,11 @@
   "description": "Any URL to clean markdown/JSON; PDF, XLSX, CSV, DOCX to text and tables. Free tier for agents.",
   "repository": { "url": "https://github.com/clearcrawl/clearcrawl-mcp", "source": "github" },
   "websiteUrl": "https://agentreader.onrender.com/llms.txt",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "remotes": [
     {
       "type": "streamable-http",
-      "url": "https://agentreader.onrender.com/v1/mcp",
+      "url": "https://agentreader.onrender.com/mcp",
       "headers": [
         { "name": "Authorization", "description": "Optional: 'Bearer <Clearcrawl API key>' for paid credits. Omit for the free tier (100 calls/day).", "isRequired": false, "isSecret": true }
       ]

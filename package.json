@@ -1,6 +1,6 @@
 {
   "name": "clearcrawl-mcp",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "MCP server for Clearcrawl: turn any URL into clean markdown/JSON and convert PDF, XLSX, CSV, DOCX into text and tables.",
   "type": "module",
   "bin": { "clearcrawl-mcp": "index.js" },
