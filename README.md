@@ -30,3 +30,5 @@ The local mode can also convert files from your disk (`convert_file` with `path`
 - Limits: public http(s) URLs only, 15 MB max, no JavaScript rendering or OCR yet.
 
 MIT licensed (this client). The Clearcrawl API itself is a hosted service.
+
+More from our studio: [VibePicks](https://vibepicks.dev)
