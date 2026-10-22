@@ -31,4 +31,6 @@ The local mode can also convert files from your disk (`convert_file` with `path`
 
 MIT licensed (this client). The Clearcrawl API itself is a hosted service.
 
-More from our studio: [VibePicks](https://vibepicks.dev)
+More from our studio: [VibePicks](https://vibepicks.dev) · [LinkPreflight](https://linkpreflight.dev)
+
+Pairs well with LinkPreflight, our sister brand: preflight a URL with LinkPreflight, then extract it with Clearcrawl.
